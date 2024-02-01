@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venisha Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">What I have learnt so far</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#cert" class="nav__link">Certifications</a></li>
+                <li class="nav__item"><a href="#my-projects" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Venisha Parmar</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Second Year Student of B.tech-ICT | at Marwadi University</p>
+        <img src="img/v.png" alt="a picture of josh" class="intro__img">
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I have learnt so far</h2>
+        <div class="services">
+            
+            <div class="service">
+                <h3>Programming Languages</h3>
+                <p>
+                    My journey in programming began during my first year of college when I started learning C programming. 
+                    To improve my skills, I actively practiced programming problems on HackerRank.
+                    In my second semester, I was introduced to R programming and also learned Java, which is an object-oriented programming language. 
+                    In my third semester, I gained knowledge about data structures and algorithms, and I learned about data structures using C++. 
+                    Additionally, I expanded my programming knowledge by learning Python and worked on a project called "Online Furniture Store" using the Python framework called Django. 
+                    I also completed several Coursera courses in this programming language. These courses helped me to further solidify my understanding of Python and expand my programming skills.
+                    Overall, my programming journey has been exciting and challenging, and I look forward to continuing my progress in the field.
+                </p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Web Technologies and Database</h3>
+                <p>
+                    In my fourth semester, I was introduced to a variety of web technologies, including HTML, CSS, JavaScript, and PHP. 
+                    I also had the opportunity to attend some bootcamps related to these technologies, which allowed me to gain hands-on experience and enhance my skills. In bootcamp, 
+                    I created a clone project of a popular web application, Hotstar, which further helped me to solidify my understanding of these technologies. In addition, I completed a project called "Learning Module of Graph Theory",
+                    which is a user-friendly website designed to teach students about graph theory using HTML, CSS, and JavaScript. 
+                    Currently, I am working on an exciting project called the "Airline Reservation System," which involves using HTML, CSS, JavaScript, PHP, and MySQL database. 
+                    Overall, I am confident that my experiences in web technologies and my passion for learning will allow me to continue to excel in this field.
+                </p>
+            </div> <!-- / service -->
+
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn">My Skills</a>
+    </section>
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <img src="img/venisha.png" alt="" class="about-me__img">
+        <p class="section__subtitle section__subtitle--about">Being a Technology Student makes me happy</p>
+
+        <div class="about-me__body">
+            <p>I am a Second-Year B.Tech Student currently studying Information and Communication Technology at Marwadi University, Rajkot.</p>
+            <p>Some non-technical interests of mine include I enjoy Philosophy because it allows people to open their minds and discover what is truly important in life. 
+                Philosophy of technology is also important as it studies the character of technology and its relations to society. Thus, Philosophy is necessary to live a 'good' life.</p>
+            <p>I regularly practice coding on CodeChef and participate in coding contests, constantly striving to improve my skills
+                While I acknowledge that I still have much to learn, I am eager to expand my skill set and continue building my portfolio. With a growth mindset and dedication, 
+                I am confident that I will be able to acquire more valuable skills in the future.
+            </p>
+            <p>I take pride in my ability to stay focused and committed to a task until it is successfully completed. When I undertake a project or goal, I approach it with a strategic and analytical mindset, constantly searching for ways to improve and overcome any obstacles. I have a strong work ethic and a determination to succeed, which enables me to consistently produce high-quality work. 
+                My persistence and dedication ensure that I am able to meet challenges head-on and achieve successful outcomes.
+                That's all from my side, at last, thank you for visiting! I hope you have a great day.
+            </p>
+        </div>
+
+
+    </section>
+
+    <hr/>
+
+    <!-- My Work -->
+    <section class="my-certificates" id="cert">
+        <h2 class="section__title section__title--cert">My Certification</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="certificate">
+            <!-- certificate item 1 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__1" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__1" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__1" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/postman.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__1">
+                <h2>Postman API Fundamentals Student Expert</h2>
+            </label>
+            <!-- certificate item 2 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__2" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__2" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__2" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/jdbc.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__2">
+                <h2>Introduction To Java Database Connectivity - JDBC </h2> 
+            </label>
+            <!-- certificate item 3 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__3" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__3" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__3" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/r for datavisual.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__3">
+                <h2>Data Visualization with R - By Cognitive Class</h2>
+            </label>
+            <!-- certificate item 4 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__4" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__4" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__4" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/pandas.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__4">
+                <h2>Mastering Data Analysis with Pandas</h2>
+            </label>
+            <!-- certificate item 5 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__5" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__5" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__5" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/mongodb.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__5">
+                <h2>Create a Python Application using PyMongo and MongoDB Database</h2> 
+            </label>
+            <!-- certificate item 6 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__6" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__6" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__6" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/git.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__6">
+                <h2>Github Global Campus Student</h2>
+            </label>
+            <!-- certificate item 7 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__7" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__7" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__7" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/plotly.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__7">
+                <h2>Data Visualization using Plotly</h2>
+            </label>
+            <!-- certificate item 8 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__8" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__8" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__8" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/oracle.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__8">
+                <h2>Oracle Database Foundations Learner</h2>
+            </label>
+            <!-- certificate item 9 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__9" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__9" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__9" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/datascience _pyth.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__9">
+                <h2>Build a Data Science Web App with Streamlit and Python</h2> 
+            </label>
+            <!-- certificate item 10 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__10" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__10" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__10" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/microsoft.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__10">
+                <h2>Microsoft Learn Student Ambassaor - Completion of Bootcamp</h2>
+            </label>
+            <!-- certificate item 11 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__11" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__11" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__11" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/google_devlo.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__11">
+                <h2>Google Developer Group - Completion of Bootcamp</h2>
+            </label>
+            <!-- certificate item 12 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__12" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__12" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__12" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/tablue.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__12">
+                <h2>Essential Design Principles for Tableau - UC Davis </h2>
+            </label>
+            <!-- certificate item 13 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__13" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__13" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__13" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/storytelling.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__13">
+                <h2>Creating Dashboards and Storytelling with Tableau - UC Davis</h2>
+            </label>
+            <!-- certificate item 14 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__14" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__14" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__14" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/dsa.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__14">
+                <h2>Data Structures & Algorithms in Python: Trees & Graphs</h2>
+            </label>
+            <!-- certificate item 15 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__15" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__15" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__15" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/devtown.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__15">
+                <h2>DevTown Bootcamp on Hotstar Clone using HTML & CSS</h2>
+            </label>
+            <!-- certificate item 16 -->
+            <!-- Start popup -->
+            <input type="checkbox" id="popup__16" class="popup__check" />
+            <div class="popup__base">
+                <label for="popup__16" class="popup__bg"></label>
+                <div class="popup__inner">
+                    <div class="popup__calign">
+                        <label for="popup__16" class="popup__close">+</label>
+                    </div>
+                    <div class="popup__img">
+                        <img src="cert/r for datascience.JPG" alt="" class="certificate__img">
+                    </div>
+                </div>
+            </div>
+            <!-- End popup -->
+            <label class="trigger" for="popup__16">
+                <h2>R for Data Science - by Cognitive Class</h2>
+            </label>
+        </div>
+    </section>
+
+    <hr/>
+
+    <div id="my-projects">
+        <h2 class="section__title section__title--projects" id="projects">My Work</h2>
+        <!--START SCROLLER-->
+        <div class="project first active">
+            <div class="slide-img">
+                <button class="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <polyline points="15 6 9 12 15 18" />
+                    </svg>
+                </button>
+                <img class="project-img" src="img/GT.JPG" lt="Touché image">
+                <button class="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right"
+                        width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <polyline points="9 6 15 12 9 18" />
+                    </svg>
+                </button>
+            </div>
+            <div class="project-description">
+                <h2><a href="https://github.com/venishaparmar/Graph-Theory.git" target="_blank" >Learning Module of Graph Theory</a></h2>
+                <p>A comprehensive learning module on graph theory, showcasing various types of graphs for users to explore. Upon selecting a graph, 
+                the module provides a detailed definition and highlights key properties of that specific graph, accompanied by relevant examples.
+                </p>
+            </div>
+        </div>
+        <!--END SCROLLER-->
+
+        <!--START SCROLLER-->
+        <div class="project hidden">
+            <div class="slide-img">
+                <button class="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <polyline points="15 6 9 12 15 18" />
+                    </svg>
+                </button>
+                <img class="project-img" src="img/OFS.png" lt="Touché image">
+                <button class="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right"
+                        width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <polyline points="9 6 15 12 9 18" />
+                    </svg>
+                </button>
+            </div>
+            <div class="project-description">
+                <h2><a href="https://github.com/venishaparmar/Online-Furniture-Store-.git" target="_blank" rel="noopener">Online Furniture Store</a></h2>
+                </h2>
+                <p>
+                    A fully-functional web application designed for an online furniture store, 
+                    which was built using the powerful Django framework in the versatile Python programming language. 
+                    The website boasts a user-friendly interface that allows users to seamlessly browse through an extensive collection of high-quality furniture items, view detailed information about each product, 
+                    and peruse a plethora of images to get a better sense of each item's style and functionality.
+                </p>
+            </div>
+        </div>
+        <!--END SCROLLER-->    
+    </div>
+    <hr>
+    
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">Comfortable with</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <div class="portfolio__item">
+                <svg class="portfolio__img" width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                    <g>
+                        <path d="M0,0 L256,0 L256,256 L0,256 L0,0 Z" fill="#F7DF1E"></path>
+                        <path d="M67.311746,213.932292 L86.902654,202.076241 C90.6821079,208.777346 94.1202286,214.447137 102.367086,214.447137 C110.272203,214.447137 115.256076,211.354819 115.256076,199.326883 L115.256076,117.528787 L139.313575,117.528787 L139.313575,199.666997 C139.313575,224.58433 124.707759,235.925943 103.3984,235.925943 C84.1532952,235.925943 72.9819429,225.958603 67.3113397,213.93026" fill="#000000"></path>
+                        <path d="M152.380952,211.354413 L171.969422,200.0128 C177.125994,208.433981 183.827911,214.619835 195.684368,214.619835 C205.652521,214.619835 212.009041,209.635962 212.009041,202.762159 C212.009041,194.513676 205.479416,191.592025 194.481168,186.78207 L188.468419,184.202565 C171.111213,176.81473 159.597308,167.53534 159.597308,147.944838 C159.597308,129.901308 173.344508,116.153295 194.825752,116.153295 C210.119924,116.153295 221.117765,121.48094 229.021663,135.400432 L210.29059,147.428775 C206.166146,140.040127 201.699556,137.119289 194.826159,137.119289 C187.78047,137.119289 183.312254,141.587098 183.312254,147.428775 C183.312254,154.646349 187.78047,157.568406 198.089956,162.036622 L204.103924,164.614095 C224.553448,173.378641 236.067352,182.313448 236.067352,202.418387 C236.067352,224.071924 219.055137,235.927975 196.200432,235.927975 C173.860978,235.927975 159.425829,225.274311 152.381359,211.354413" fill="#000000"></path>
+                    </g>
+                </svg>
+            </div>
+
+            <!-- Portfolio item 02 -->
+            <div class="portfolio__item">
+                <svg class="portfolio__img" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 305.001 305.001"
+                    style="enable-background:new 0 0 305.001 305.001;" xml:space="preserve">
+                    <g id="XMLID_7_">
+                        <path fill="#EA2E2F" id="XMLID_8_" d="M150.99,56.513c-14.093,9.912-30.066,21.147-38.624,39.734c-14.865,32.426,30.418,67.798,32.353,69.288
+                    c0.45,0.347,0.988,0.519,1.525,0.519c0.57,0,1.141-0.195,1.605-0.583c0.899-0.752,1.154-2.029,0.614-3.069
+                    c-0.164-0.316-16.418-31.888-15.814-54.539c0.214-7.888,11.254-16.837,22.942-26.312c10.705-8.678,22.839-18.514,29.939-30.02
+                    c15.586-25.327-1.737-50.231-1.914-50.479c-0.688-0.966-1.958-1.317-3.044-0.84c-1.085,0.478-1.686,1.652-1.438,2.811
+                    c0.035,0.164,3.404,16.633-5.97,33.6C169.301,43.634,160.816,49.603,150.99,56.513z" />
+                        <path fill="#EA2E2F" id="XMLID_9_" d="M210.365,67.682c0.994-0.749,1.286-2.115,0.684-3.205c-0.602-1.09-1.913-1.571-3.077-1.129
+                    c-2.394,0.91-58.627,22.585-58.627,48.776c0,18.053,7.712,27.591,13.343,34.556c2.209,2.731,4.116,5.09,4.744,7.104
+                    c1.769,5.804-2.422,16.294-4.184,19.846c-0.508,1.022-0.259,2.259,0.605,3.005c0.467,0.403,1.05,0.607,1.634,0.607
+                    c0.497,0,0.996-0.148,1.427-0.448c0.967-0.673,23.63-16.696,19.565-36.001c-1.514-7.337-5.12-12.699-8.302-17.43
+                    c-4.929-7.329-8.489-12.624-3.088-22.403C181.419,89.556,210.076,67.899,210.365,67.682z" />
+                        <path fill="#0175BD" id="XMLID_10_" d="M63.99,177.659c-0.964,2.885-0.509,5.75,1.315,8.283c6.096,8.462,27.688,13.123,60.802,13.123
+                    c0.002,0,0.003,0,0.004,0c4.487,0,9.224-0.088,14.076-0.262c52.943-1.896,72.58-18.389,73.39-19.09
+                    c0.883-0.764,1.119-2.037,0.57-3.067c-0.549-1.029-1.733-1.546-2.864-1.235c-18.645,5.091-53.463,6.898-77.613,6.898
+                    c-27.023,0-40.785-1.946-44.154-3.383c1.729-2.374,12.392-6.613,25.605-9.212c1.263-0.248,2.131-1.414,2.006-2.695
+                    c-0.125-1.281-1.201-2.258-2.488-2.258C106.893,164.762,68.05,165.384,63.99,177.659z" />
+                        <path fill="#0175BD" id="XMLID_11_" d="M241.148,160.673c-10.92,0-21.275,5.472-21.711,5.705c-1.01,0.541-1.522,1.699-1.245,2.811
+                    c0.278,1.111,1.277,1.892,2.423,1.893c0.232,0.001,23.293,0.189,25.382,13.365c1.85,11.367-21.82,29.785-31.097,35.923
+                    c-1.002,0.663-1.391,1.945-0.926,3.052c0.395,0.943,1.314,1.533,2.304,1.533c0.173,0,0.348-0.018,0.522-0.056
+                    c2.202-0.47,53.855-11.852,48.394-41.927C261.862,164.541,250.278,160.673,241.148,160.673z" />
+                        <path fill="#0175BD" id="XMLID_12_" d="M205.725,216.69c0.18-0.964-0.221-1.944-1.023-2.506l-12.385-8.675c-0.604-0.423-1.367-0.556-2.076-0.368
+                    c-0.129,0.034-13.081,3.438-31.885,5.526c-7.463,0.837-15.822,1.279-24.175,1.279c-18.799,0-31.091-2.209-32.881-3.829
+                    c-0.237-0.455-0.162-0.662-0.12-0.777c0.325-0.905,2.068-1.98,3.192-2.405c1.241-0.459,1.91-1.807,1.524-3.073
+                    c-0.385-1.266-1.69-2.012-2.978-1.702c-12.424,2.998-18.499,7.191-18.057,12.461c0.785,9.343,22.428,14.139,40.725,15.408
+                    c2.631,0.18,5.477,0.272,8.456,0.272c0.002,0,0.003,0,0.005,0c30.425,0,69.429-9.546,69.819-9.643
+                    C204.818,218.423,205.544,217.654,205.725,216.69z" />
+                        <path fill="#0175BD" id="XMLID_13_"
+                            d="M112.351,236.745c0.938-0.611,1.354-1.77,1.021-2.838c-0.332-1.068-1.331-1.769-2.453-1.755
+                    c-1.665,0.044-16.292,0.704-17.316,10.017c-0.31,2.783,0.487,5.325,2.37,7.556c5.252,6.224,19.428,9.923,43.332,11.31
+                    c2.828,0.169,5.7,0.254,8.539,0.254c30.39,0,50.857-9.515,51.714-9.92c0.831-0.393,1.379-1.209,1.428-2.127
+                    c0.049-0.917-0.409-1.788-1.193-2.267l-15.652-9.555c-0.543-0.331-1.193-0.441-1.813-0.314c-0.099,0.021-10.037,2.082-25.035,4.119
+                    c-2.838,0.385-6.392,0.581-10.562,0.581c-14.982,0-31.646-2.448-34.842-4.05C111.843,237.455,111.902,237.075,112.351,236.745z" />
+                        <path fill="#0175BD" id="XMLID_14_"
+                            d="M133.681,290.018c69.61-0.059,106.971-12.438,114.168-20.228c2.548-2.757,2.823-5.366,2.606-7.07
+                    c-0.535-4.194-4.354-6.761-4.788-7.04c-1.045-0.672-2.447-0.496-3.262,0.444c-0.813,0.941-0.832,2.314-0.016,3.253
+                    c0.439,0.565,0.693,1.51-0.591,2.795c-2.877,2.687-31.897,10.844-80.215,13.294c-6.619,0.345-13.561,0.519-20.633,0.52
+                    c-43.262,0-74.923-5.925-79.079-9.379c1.603-2.301,12.801-5.979,24.711-8.058c1.342-0.234,2.249-1.499,2.041-2.845
+                    c-0.208-1.346-1.449-2.273-2.805-2.096c-0.336,0.045-1.475,0.115-2.796,0.195c-19.651,1.2-42.36,3.875-43.545,13.999
+                    c-0.36,3.086,0.557,5.886,2.726,8.324c5.307,5.963,20.562,13.891,91.475,13.891C133.68,290.018,133.68,290.018,133.681,290.018z" />
+                        <path fill="#0175BD" id="XMLID_15_" d="M261.522,271.985c-0.984-0.455-2.146-0.225-2.881,0.567c-0.103,0.11-10.568,11.054-42.035,17.48
+                    c-12.047,2.414-34.66,3.638-67.211,3.638c-32.612,0-63.643-1.283-63.953-1.296c-1.296-0.063-2.405,0.879-2.581,2.155
+                    c-0.177,1.276,0.645,2.477,1.897,2.775c0.323,0.077,32.844,7.696,77.31,7.696c21.327,0,42.08-1.733,61.684-5.151
+                    c36.553-6.408,39.112-24.533,39.203-25.301C263.082,273.474,262.504,272.44,261.522,271.985z" />
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                </svg>
+            </div>
+
+            <!-- Portfolio item 03 -->
+            <div class="portfolio__item">
+                <svg class="portfolio__img" height="512pt" viewBox="-27 0 512 512" width="512pt"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="m0 0 44.265625 461.5 186.480469 50.5 183.84375-50.5 44.265625-461.5zm0 0" fill="#fd982c" />
+                    <path d="m230.746094 0v512l183.84375-50.5 44.265625-461.5zm0 0" fill="#fa502e" />
+                    <path
+                        d="m367.171875 159.378906-195.859375-.003906 3.277344 35.828125h191.652344l-15.488282 200.191406-120.171875 34.953125-128.984375-40.117187v-81.183594h80.125v24.179687l48.875 15.101563 46.308594-15.113281 3.371094-59.941406h-177.4375l-20.03125-190.964844h284.363281zm0 0"
+                        fill="#fff" />
+                    <g fill="#deecf1">
+                        <path d="m230.746094 82.308594h136.425781v77.070312h-136.425781zm0 0" />
+                        <path
+                            d="m280.277344 273.273438-3.371094 59.941406-46.160156 15.066406v82.019531l120.007812-34.90625 15.488282-200.191406h-135.496094v78.070313zm0 0" />
+                    </g>
+                </svg>
+            </div>
+
+            <!-- Portfolio item 04 -->
+            <div class="portfolio__item">
+                <svg class="portfolio__img" xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-brand-python" width="33" height="33" viewBox="0 0 25 25"
+                    stroke-width="1.5" stroke="#FFD23F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3" />
+                    <path d="M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3" />
+                    <path
+                        d="M8 9v-4a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-4a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4" />
+                    <line x1="11" y1="6" x2="11" y2="6.01" />
+                    <line x1="13" y1="18" x2="13" y2="18.01" />
+                </svg>
+            </div>
+
+            <!-- Portfolio item 05 -->
+            <div class="portfolio__item">
+                <svg class="portfolio__img" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="64"
+                    height="64" viewBox="0 0 75 75">
+                    <defs>
+                        <linearGradient id="A" x1="-29.929" x2="129.043" y1="-174.802" y2="62.565"
+                            gradientUnits="userSpaceOnUse" spreadMethod="pad">
+                            <stop offset="0" stop-color="#cbced0" />
+                            <stop offset="1" stop-color="#84838b" />
+                        </linearGradient>
+                        <linearGradient id="B" x1="35.568" x2="123.311" y1="-76.297" y2="13.236"
+                            gradientUnits="userSpaceOnUse" spreadMethod="pad">
+                            <stop offset="0" stop-color="#276dc3" />
+                            <stop offset="1" stop-color="#165caa" />
+                        </linearGradient>
+                    </defs>
+                    <g transform="matrix(.402588 0 0 .402588 12.049007 51.347662)" fill-rule="evenodd">
+                        <path
+                            d="M49.557-2.885c-43.9 0-79.486-23.834-79.486-53.234s35.587-53.234 79.486-53.234 79.486 23.834 79.486 53.234S93.456-2.885 49.557-2.885zM61.724-88.54c-33.367 0-60.416 16.294-60.416 36.393s27.05 36.393 60.416 36.393 57.99-11.14 57.99-36.393c0-25.245-24.624-36.393-57.99-36.393z"
+                            fill="url(#A)" />
+                        <path
+                            d="M91.124-26.9s4.81 1.452 7.606 2.866c.97.49 2.648 1.47 3.858 2.756 1.186 1.26 1.764 2.535 1.764 2.535l18.96 31.967-30.644.014-14.33-26.9s-2.934-5.042-4.74-6.504c-1.506-1.22-2.148-1.653-3.638-1.653h-7.28l.006 35.047-27.116.01v-89.526H90.02s24.802.447 24.802 24.044-23.7 25.353-23.7 25.353zM79.33-56.878l-16.416-.01-.008 15.223 16.424-.006s7.606-.024 7.606-7.744c0-7.875-7.606-7.463-7.606-7.463z"
+                            fill="url(#B)" />
+                    </g>
+                </svg>
+            </div>
+
+            <!-- Portfolio item 06 -->
+            <div class="portfolio__item">
+                <svg class="portfolio__img" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="200" height="200"
+                    viewBox="0 0 48 48" style=" fill:#000000;">
+                    <g id="surface1">
+                        <path style=" fill-rule:evenodd;fill:#283593;"
+                            d="M 22.902344 3.285156 C 23.582031 2.90625 24.417969 2.90625 25.097656 3.285156 C 28.449219 5.167969 38.546875 10.835938 41.902344 12.71875 C 42.582031 13.101563 43 13.804688 43 14.566406 C 43 18.332031 43 29.667969 43 33.433594 C 43 34.195313 42.582031 34.898438 41.902344 35.28125 C 38.546875 37.164063 28.453125 42.832031 25.097656 44.714844 C 24.417969 45.09375 23.582031 45.09375 22.902344 44.714844 C 19.546875 42.832031 9.453125 37.164063 6.097656 35.28125 C 5.417969 34.898438 5 34.195313 5 33.433594 C 5 29.667969 5 18.332031 5 14.566406 C 5 13.804688 5.417969 13.101563 6.097656 12.71875 C 9.449219 10.835938 19.550781 5.167969 22.902344 3.285156 Z ">
+                        </path>
+                        <path style=" fill-rule:evenodd;fill:#5C6BC0;"
+                            d="M 5.304688 34.402344 C 5.039063 34.046875 5 33.710938 5 33.253906 C 5 29.511719 5 18.242188 5 14.496094 C 5 13.738281 5.417969 13.039063 6.09375 12.660156 C 9.4375 10.789063 19.5 5.152344 22.84375 3.28125 C 23.519531 2.902344 24.4375 2.910156 25.113281 3.289063 C 28.457031 5.160156 38.484375 10.746094 41.828125 12.617188 C 42.097656 12.769531 42.304688 12.953125 42.488281 13.195313 Z ">
+                        </path>
+                        <path style=" fill-rule:evenodd;fill:#FFFFFF;"
+                            d="M 24 10 C 31.726563 10 38 16.273438 38 24 C 38 31.726563 31.726563 38 24 38 C 16.273438 38 10 31.726563 10 24 C 10 16.273438 16.273438 10 24 10 Z M 24 17 C 27.863281 17 31 20.136719 31 24 C 31 27.863281 27.863281 31 24 31 C 20.136719 31 17 27.863281 17 24 C 17 20.136719 20.136719 17 24 17 Z ">
+                        </path>
+                        <path style=" fill-rule:evenodd;fill:#3949AB;"
+                            d="M 42.484375 13.203125 C 43 13.6875 42.992188 14.414063 42.992188 14.988281 C 42.992188 18.785156 42.960938 29.578125 43 33.371094 C 43.003906 33.769531 42.871094 34.1875 42.675781 34.5 L 23.59375 24 Z ">
+                        </path>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    
+    <div id="contacts">
+        <h2 class="h3">
+            Catch me on one of these platforms.
+            <br>
+        </h2>
+        <ul class="social-media">
+            <li id="codepen">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="69"
+                    height="60" viewBox="0 0 26 26" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <path
+                d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+            </li>
+            <li id="github">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="66"
+                    height="66" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" />
+                    <path
+                        d="M9 19c-4.286 1.35-4.286-2.66-6-3m12 5v-3.5c0-1 .099-1.405-.5-2 2.791-.3 5.5-1.366 5.5-6.04a4.567 4.567 0 0 0 -1.333 -3.21a4.192 4.192 0 0 0 -.08 -3.227s-1.05-.3-3.476 1.267a12.334 12.334 0 0 0 -6.222 0C6.462 2.723 5.413 3.023 5.413 3.023a4.192 4.192 0 0 0 -.08 3.227A4.665 4.665 0 0 0 4 9.486c0 4.64 2.709 5.68 5.5 6.014-.591.589-.56 1.183-.5 2V21" />
+                </svg>
+            </li>
+            <li id="discord">
+                <!-- Generated by IcoMoon.io -->
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 1024 1024">
+                    <title></title>
+                    <g id="icomoon-ignore">
+                    </g>
+                    <path fill="#2C3E50"
+                        d="M862.805 0c59.989 0 108.373 48.512 111.232 105.6v918.4l-114.219-96.981-62.72-57.088-68.437-59.648 28.587 94.080h-598.966c-59.819 0-108.373-45.44-108.373-105.643v-692.907c0-57.088 48.64-105.685 108.587-105.685h704zM601.771 242.475h-1.28l-8.619 8.533c88.448 25.6 131.243 65.579 131.243 65.579-57.003-28.501-108.373-42.752-159.744-48.512-37.12-5.76-74.24-2.731-105.6 0h-8.533c-20.053 0-62.72 8.533-119.893 31.36-19.925 8.661-31.36 14.336-31.36 14.336s42.752-42.752 136.96-65.579l-5.76-5.76c0 0-71.339-2.731-148.352 54.187 0 0-77.013 134.144-77.013 299.52 0 0 42.667 74.24 159.701 77.056 0 0 17.067-22.741 34.347-42.752-65.707-19.968-91.307-59.904-91.307-59.904s5.717 2.816 14.293 8.533h2.56c1.28 0 1.877 0.64 2.56 1.28v0.256c0.683 0.683 1.28 1.28 2.56 1.28 14.080 5.803 28.16 11.52 39.68 17.067 19.883 8.619 45.44 17.195 76.8 22.869 39.68 5.76 85.163 8.533 136.96 0 25.6-5.76 51.2-11.392 76.8-22.827 16.64-8.533 37.12-17.067 59.605-31.445 0 0-25.6 39.936-94.080 59.904 14.080 19.883 33.92 42.667 33.92 42.667 117.077-2.56 162.56-76.8 165.12-73.643 0-165.12-77.44-299.52-77.44-299.52-69.76-51.797-135.040-53.76-146.56-53.76zM608.939 430.763c29.995 0 54.187 25.6 54.187 56.96 0 31.573-24.32 57.173-54.187 57.173s-54.187-25.6-54.187-56.917c0.085-31.573 24.448-57.088 54.187-57.216zM415.104 430.763c29.867 0 54.016 25.6 54.016 56.96 0 31.573-24.32 57.173-54.187 57.173s-54.187-25.6-54.187-56.917c0-31.573 24.32-57.088 54.357-57.216z">
+                    </path>
+                </svg>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="email">
+        <a href="mailto:parmarvenisha725@gmail.com">parmarvenisha725@gmail.com</a>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
